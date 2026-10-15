@@ -1,0 +1,21 @@
+# EcoPlay modernizado
+
+## Arquivos
+- HTML das páginas educativas e jogos.
+- `ajustes.css`: camada visual complementar; não altera nem substitui o `style.css` original.
+- `pwa.js` e `service-worker.js`: instalação e cache básico offline.
+- `manifest.json` e ícones do aplicativo.
+
+## Publicação
+Envie todos os arquivos desta pasta para a raiz do repositório GitHub Pages, mantendo os nomes.
+
+**Importante:** o arquivo original `style.css` não estava entre os anexos disponíveis nesta conversa, por isso ele não foi alterado nem incluído neste pacote. As páginas continuam referenciando `style.css` e carregam `ajustes.css` depois dele para complementar o visual. Se o arquivo original já estiver no repositório, mantenha-o.
+
+O service worker precisa ser servido por HTTPS (GitHub Pages atende a esse requisito). Depois de publicar, atualize a página ou limpe os dados/cache do site caso o navegador continue exibindo a versão anterior.
+
+
+CORREÇÃO DE ESTILOS
+- O pacote anterior referenciava style.css, mas não incluía esse arquivo.
+- Esta versão inclui style.css completo e mantém ajustes.css como camada complementar.
+- Suba os arquivos juntos para a mesma pasta principal do GitHub Pages.
+- Se o navegador continuar mostrando a versão antiga, atualize com Ctrl+F5 no computador ou limpe o cache do navegador no Android.
